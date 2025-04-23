@@ -19,6 +19,6 @@ The data file format for this project is `.mat` and each `.mat` file contains th
   String type identifying the file name, encoded to contain the blood pressure reference value:
   - `S` followed by the Systolic Blood Pressure (SBP) value.
   - `D` followed by Diastolic Blood Pressure (DBP) value.
-## 注意事项
+## Attention
 - There may be small noise or drift phenomenon in the data set, please pre-process appropriately according to the needs when using.
 - The collected data are for research and study only, and are prohibited for commercial use.
