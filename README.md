@@ -1,24 +1,24 @@
 # ReBP
 
-## 项目简介
-ReBP项目中上传的数据集为实验采集的原始数据及预处理结果，旨在为后续信号处理、特征提取及建模研究提供支持。
+## Project Profile
+The datasets uploaded in the ReBP project are some of the raw data collected from the experiments and the pre-processing results, which are intended to provide support for subsequent signal processing, feature extraction and modeling studies.
 
-## 数据说明
-本项目的数据文件格式为 `.mat`，每个 `.mat` 文件中包含以下四类数据：
+## Data Description
+The data file format for this project is `.mat` and each `.mat` file contains the following four types of data:
 
 - **rawdata**  
-  初步处理的毫米波雷达信号数据。
+  Preliminary processed millimeter wave radar signal data.
   
 - **wavedata**  
-  经过自适应滤波处理后的毫米波雷达信号，用于后续特征提取与分析。
+  Millimeter-wave radar signals after adaptive filtering processing for subsequent feature extraction and analysis.
   
 - **ppgdata**  
-  同步采集的光电容积描记（PPG）信号数据。
+  Synchronized acquisition of PPG signal data.
   
 - **name**  
-  字符串类型，标识文件名，编码包含血压参考值：
-  - `S` 后为收缩压（Systolic Blood Pressure, SBP）值
-  - `D` 后为舒张压（Diastolic Blood Pressure, DBP）值
+  String type identifying the file name, encoded to contain the blood pressure reference value:
+  - `S` followed by the Systolic Blood Pressure (SBP) value.
+  - Diastolic Blood Pressure (DBP) value followed by `D`.
 ## 注意事项
-- 数据集中可能存在微小噪声或漂移现象，使用时请根据需求进行适当预处理。
-- 采集数据仅供研究与学习使用，禁止用于商业用途。
+- There may be small noise or drift phenomenon in the data set, please pre-process appropriately according to the needs when using.
+- The collected data are for research and study only, and are prohibited for commercial use.
